@@ -1,15 +1,22 @@
 <template>
-  <div class="full-width center-content">
-    <hello-component name="World"/>
-  </div>
+  <v-app>
+    <Header />
+    <v-content>
+      <v-container fluid>
+      </v-container>
+    </v-content>
+    <v-footer app></v-footer>
+  </v-app>
 </template>
 
 <script>
   import HelloComponent from './components/HelloComponent.vue'
+  import Header from './components/Header.vue'
 
   export default {
     components: {
-      HelloComponent
+      HelloComponent,
+      Header
     }
   }
 </script>
