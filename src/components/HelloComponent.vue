@@ -1,7 +1,7 @@
 <template>
   <div>
     <h1>Hello {{ name }}!</h1>
-    <v-btn fab dark >
+    <v-btn fab>
       <v-icon>fab fa-linkedin-in</v-icon>
     </v-btn>
   </div>
@@ -18,6 +18,6 @@
   }
 </script>
 <style lang="stylus" scoped>
-  h1
-    color blue
+  /*h1*/
+    /*color blue*/
 </style>
