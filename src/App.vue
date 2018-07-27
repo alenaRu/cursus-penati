@@ -5,6 +5,7 @@
       <v-container>
         <Title />
         <Menu />
+        <PageHeading />
       </v-container>
     </v-content>
     <v-footer app />
@@ -16,6 +17,7 @@
   import Header from './components/Header.vue';
   import Title from './components/Title.vue';
   import Menu from './components/Menu.vue';
+  import PageHeading from './components/PageHeading.vue';
 
   export default {
     components: {
@@ -23,6 +25,7 @@
       Header,
       Title,
       Menu,
+      PageHeading,
     }
   }
 </script>
