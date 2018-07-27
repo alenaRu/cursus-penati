@@ -22,7 +22,7 @@
               outline
               hide-details
           />
-          <v-btn color="primary">{{searchBtn}}</v-btn>
+          <v-btn color="primary" depressed>{{searchBtn}}</v-btn>
         </v-flex>
       </v-layout>
     </v-flex>
