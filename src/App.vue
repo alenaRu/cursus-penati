@@ -6,6 +6,7 @@
         <Title />
         <Menu />
         <PageHeading />
+        <PageImageGrid/>
       </v-container>
     </v-content>
     <v-footer app />
@@ -18,6 +19,7 @@
   import Title from './components/Title.vue';
   import Menu from './components/Menu.vue';
   import PageHeading from './components/PageHeading.vue';
+  import PageImageGrid from './components/PageImageGrid.vue';
 
   export default {
     components: {
@@ -26,6 +28,7 @@
       Title,
       Menu,
       PageHeading,
+      PageImageGrid,
     }
   }
 </script>
